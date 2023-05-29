@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>BostonCelitcs</title>
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+      <!--Enlace css-->
+      <link rel="stylesheet" href="./css/estilos.css">
+      <!--Enlace favicon-->
+      <link rel="shortcut icon" href="./images/favicon.webp" type="image/x-icon" />
+  </head>
+  <body>
+    <div id="wrapper" class="container bg-white px-5">
+
+      <!-- Barra de Navegación -->
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="./images/LogoPrincipal.png" style="width: 64px;" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="#">La historia</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#bestplayers">Best Players</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="buscar">
+              <input class="form-control me-2" type="buscar" placeholder="Buscar" aria-label="Buscar">
+              <button class="btn btn-outline-success" type="submit">Buscar</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+
+
+      <!-- Hero Section -->
+      <div class="container">
+              <!-- Carrusel de la hero section -->
+      <div class="container">
+        <div class="row">
+          <div class="col-2"></div>
+          <div class="col-8">
+            <div id="carouselExampleIndicators" class="carousel slide">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner mb-3 mb-sm-5">
+                <div class="carousel-item active text-center">
+                  <img src="./images/herosection1.jpg" class="rounded w-100" alt="">
+                </div>
+                <div class="carousel-item text-center">
+                  <img src="./images/herosection2.png" class="rounded w-100" alt="">
+                </div>
+                <div class="carousel-item text-center">
+                  <img src="./images/herosection3.jpg" class="rounded w-100" alt="">
+                </div>
+      
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>      
+          </div>
+          <div class="col-2"></div>
+        </div>
+      </div>
+      </div>
+
+      
+
+
+      <!-- Introducción -->
+      <section>
+        <div class="alert alert-success" role="alert" id="lahistoria">
+          <h4>La historia</h4>
+        </div>
+      </section>
+
+      <p>
+        Fundado en 1946, con sus 17 campeonatos es el equipo más laureado de la historia de la NBA,​ junto con Los Angeles Lakers que, con su anillo ganado en 2020, consiguieron igualarles en campeonatos. El equipo dominó la NBA desde 1957 hasta 1969 con once anillos de campeón, ocho de ellos consecutivos, récord de la liga.
+      </p>
+      
+      <!-- Acordeon -->
+      <div class="accordion accordion-flush" id="accordionFlushExample">
+        <!-- Primer Anillo  -->
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+              <h5>Primer Anillo - 1957</h5>
+            </button>
+          </h2>
+          <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+
+              <!-- -->
+              <div class="container">
+                <div class="row d-flex align-items-center g-5">
+                  <div class="col-12 col-md-6">
+                    <img src="./images/Equipo1957.jpg" class="rounded w-100 " alt="">
+                  </div>
+                  <div class="col-12 col-md-6">
+      
+                    Este fue el primer equipo de Boston en superar todas las fases de una temporada y proclamarse campeones de liga,  
+                    fue su undecima temporada en la liga y gano la final ante hawks , el mvp de la liga y de Boston fue el famosisimo
+                    Bill Russel, el equipo lo llevaba Red AuerBach. Acabaron la temporada con record 44-28. En esta temporada se establecio un record en ese momento , de 34 rebotes en un partido , conseguido por Bill Russel , a de destacar que Bill no fue el maximo anotador de Boston esta temporada, pero defensivamente y reboteando , promediando 22 rebotes por partidos , llevaron a Celtics a la gran final y proclamarse campeones.
+                    
+                  </div>
+                </div>
+              </div>
+
+
+            </div>
+          </div>
+        </div>
+
+        <!-- Anillo del 1959-1966  -->
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+              <h5>Los ocho anillos consecutivos de Boston</h5>
+            </button>
+          </h2>
+          <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+
+              <!-- -->
+              <div class="container">
+                <div class="row d-flex align-items-center g-5">
+                  <div class="col-12 col-md-6">
+                    <br>
+                    <br>
+
+                    De nuevo gracias al papel de Bill Russel y sus rebotes tanto defensivos como ofensivos, consiguieron ganar 8 anillos consecutivos, debemos mencionar que en tan solo 10 años, 9 de estos anillos fueron destinados y conseguidos por Boston Celtis, por lo que cabe a destacar que este seria el noveno anillo de Bill Russel , tanto en esa epoca como en la actualidad Bill Russel es el jugador con mas anillo en la NBA, estos anillo se consiguieron desde el 1959 al 1966, siendo asi los lideres de la NBA sin ninguna discusión.
+                  </div>
+                  <div class="col-12 col-md-6">
+                    
+                    <img src="./images/Equipo8anillos.jpg" class="rounded w-75 m-3" alt="">
+
+                  </div>
+                </div>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+
+        <!-- Anillos 1968-69-->
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+              <h5>Anillos 1968-1969</h5>
+            </button>
+          </h2>
+          <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+
+              <!-- -->
+              <div class="container">
+                <div class="row d-flex align-items-center g-5">
+                  <div class="col-12 col-md-6">
+                    <img src="./images/11anillosBill.jpg" class="rounded w-75 m-3" alt="">
+
+                  </div>
+                  <div class="col-12 col-md-6">
+                    <br>
+                    Estos fueron los dos ulitmos anillos de Bill Russel en su carrera, los Boston Celtics volvieron a conseguir otros dos anillos consecutivos, tenian un equipo equilibrado , eran los mejores en todos los ámbitos del baloncesto , tanto a nivel defensivo, ofensivo , reboteando etc . Bill seguia a lo suyo lo que le hizo conseguir su decimo y undecimo anillo , a dia de hoy es el unico jugador (exjugador), en la historia que puede decir y frontear de que tiene tantos anillos que no le caben en las dos manos , o si  , poniendose dos anillos en un dedo, como se ve en esta famosa foto.
+
+                  </div>
+                </div>
+              </div>
+
+              
+              
+              
+            </div>
+          </div>
+        </div>
+
+        <!-- Anillos 1974-1986-->
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+              <h5>Anillos 1974-1976</h5>
+            </button>
+          </h2>
+          <div id="flush-collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+
+              
+
+            
+              <div class="container">
+                <div class="row d-flex align-items-center g-5">
+                  <div class="col-12 col-md-6">
+                    <img src="./images/Equipoano86.jpg" class="rounded w-75 m-3" alt="">
+
+                  </div>
+                  <div class="col-12 col-md-6">
+                    <br>
+                    En estos 13 años los celtics consiguieron 5 anillos, durante esta epoca llego el jugados Larry Bird , el famosisimo triplista en esa epoca de Boston, con su llegada se proclamaron lideres en los años, 1974 , 1976 , 1981 , 1984 y 1986.
+                    En esta epoca Boston ya tenia 16 anillos, siendo junto a Lakers los equipos con mas anillos de la historia de la NBA.
+                    <br>
+                    Pero aun siendo Lakers en esta epoca el segundo equipo con mas anillos de la NBA , tenian 9 anillos , superandoslo Boston Celtics por 7 anillos. Tambien se debe decir que 5 de los anillos de Laker fueron entre el año 1949 y 1954 y la NBA era muy diferente, por asi decir era mas facil conseguir una anillo.
+
+                  </div>
+                </div>
+              </div>
+
+
+
+            </div>
+          </div>
+        </div>
+
+        <!-- Anillo 2008-->
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
+              <h5>Anillo 2008</h5>
+            </button>
+          </h2>
+          <div id="flush-collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+
+
+              <!-- -->
+              <div class="container">
+                <div class="row d-flex align-items-center g-5">
+                  <div class="col-12 col-md-6">
+                    <img src="./images/2008team.jpg" class="rounded w-75 m-3" alt="">
+                  </div>
+                  <div class="col-12 col-md-6">
+                    <br>  
+                    Despues de varion años de sequia , con un iconico y historico equipo con jugadores como Kevin Garnet, Ray Allen , Rajon Rondo y Paul Pierce se proclamaron campeones de la NBA. En esta temporada llegaron nuevos jugadores y un nuevo Entrenador (DOC RIVERS), justo la temporada anterior Celtics tenia un record de 34 derrotas. Y con el nuevo planteamiento de celtics , creando una muralla defensiva con Kevin Garnet escoltados por Tony Allen y Rajon Rondo , consiguieron casi a mitad de temporada un record de 34-7 , de la cuales 5 derrotas fueron solo por 5 o menos puntos, consiguieron acabar con 66 victorias y con el titulo del Campeon de la NBA en 2008.
+
+                  </div>
+                </div>
+              </div>
+
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      
+      <section id="seccion3">
+        <br><br><br>
+        <div>
+          <h3 id="bestplayers">Mejores jugadores</h3>
+        </div>
+
+        <br>
+        <br>
+        <br>
+        <br>
+
+        <!-- montamos un grid de 3 col en tamaño pc-->
+        <div class="container">
+          <div class="row g-5 text-center">
+            <div class="col-xs-12 col-md-6 col-lg-3">
+              <!-- 3- probando el componente card -->
+              <div class="card border-0" >
+              <img src="./images/jeyta.jpg" class="card-img-top rounded-circle" alt="una imagen cualquiera">
+              <div class="card-body">
+                <h3 class="card-title">Jayson Tatum</h3>
+                <p class="card-text">Uno de los mejores jugadores de todos los tiempos tanto en Celtics como en la nba, a sus 25 años ha llevado a celtics varias veces a la final de conferencia y de nba.</p>
+            
+              </div>
+            </div>
+            </div>
+            <div class="col-xs-12 col-md-6 col-lg-3">
+              <!-- 3- probando el componente card -->
+              <div class="card border-0" >
+              <img src="./images/kevin.jpg" class="card-img-top rounded-circle" alt="una imagen cualquiera">
+              <div class="card-body">
+                <h3 class="card-title">Kevin Garnet</h3>
+                <p class="card-text">KV, su famoso apodo, KV ha sido un referente historico en la nba, formaron un equipo para su juego para llevar asi a conseguir un anillo mas.</p>
+        
+              </div>
+            </div>
+            </div>
+            <div class="col-xs-12 col-md-6 col-lg-3">
+            <!-- 3- probando el componente card -->
+              <div class="card border-0" >
+              <img src="./images/raya.jpg" class="card-img-top rounded-circle" alt="una imagen cualquiera">
+              <div class="card-body">
+                <h3 class="card-title">Ray Allen</h3>
+                <p class="card-text">Ray es el segundo maximo anotador de triples de la historia de la nba, llevando a la maxima fase a Boston tras unos malos años, es uno de mis jugadores favoritos. </p>
+                
+              </div>
+            </div>
+            </div>
+            <div class="col-xs-12 col-md-6 col-lg-3">
+              <!-- 3- probando el componente card -->
+              <div class="card border-0" >
+                <img src="./images/jayleb.jpg" class="card-img-top rounded-circle" alt="una imagen cualquiera">
+                <div class="card-body">
+                  <h3 class="card-title">Jaylen Brown</h3>
+                  <p class="card-text">Junto a Jayson Tatum, esta luchando por el anillo de esta temporada, han remontado un 3-0 y han empatado a 3-3 , este ultimo partido se juega el 30/05/2023</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+          
+      </section>
+      
+          
+      
+      <!-- Footer -->
+<footer class="text-center text-lg-start bg-white text-muted">
+  <!-- Section: Social media -->
+  <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+    <!-- Left -->
+    <div class="me-5 d-none d-lg-block">
+      <span>Get connected with us on social networks:</span>
+    </div>
+    <!-- Left -->
+
+    <!-- Right -->
+    <div>
+      <a href="" class="me-4 link-secondary">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a href="" class="me-4 link-secondary">
+        <i class="fab fa-twitter"></i>
+      </a>
+      <a href="" class="me-4 link-secondary">
+        <i class="fab fa-google"></i>
+      </a>
+      <a href="" class="me-4 link-secondary">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="" class="me-4 link-secondary">
+        <i class="fab fa-linkedin"></i>
+      </a>
+      <a href="" class="me-4 link-secondary">
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+    <!-- Right -->
+  </section>
+  
+
+  <!-- Section: Links  -->
+  <section id="contact">
+    <div class="container text-center text-md-start mt-5">
+      <!-- Grid row -->
+      <div class="row mt-3">
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          <!-- Content -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            <i class="fas fa-gem me-3 text-secondary"></i>Boston Celtics
+          </h6>
+          <p>
+            
+            Learn about the best team in NBA history and about some of the best players in NBA history
+          </p>
+        </div>
+        <!-- Grid column -->
+
+      
+
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Useful links
+          </h6>
+          <p>
+            <a href="#carouselExampleIndicators" class="text-reset">Intro</a>
+          </p>
+          <p>
+            <a href="#lahistoria" class="text-reset">La historia</a>
+          </p>
+          <p>
+            <a href="#bestplayers" class="text-reset">Best Players</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+          <p><i class="fas fa-home me-3 text-secondary"></i>100 Legends Way, Boston, <br> MA 02114, EE. UU.</p>
+          <p>
+            <i class="fas fa-envelope me-3 text-secondary"></i>
+            BostonCelitcs@gmail.com
+          </p>
+          <p><i class="fas fa-phone me-3 text-secondary"></i> + 34 618 381 824</p>
+        </div>
+        <!-- Grid column -->
+      </div>
+      <!-- Grid row -->
+    </div>
+  </section>
+  <!-- Section: Links  -->
+
+  <!-- Copyright -->
+  <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.025);">
+    © 2023 Copyright:
+    <a class="text-reset fw-bold" href="">Pablo Camino Vazquez</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+<!-- Footer -->
+      
+    </div>
+    
+    <!--Enlazar el js de boostrap y poper-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
+
+  </body>
+</html>
